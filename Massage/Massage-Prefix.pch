@@ -1,0 +1,25 @@
+//
+//  Massage-Prefix.pch
+//  Massage
+//
+//  Created by 屈小波 on 14-10-16.
+//  Copyright (c) 2014年 sophiemarceau_qu. All rights reserved.
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iOS SDK 3.0 and later."
+#endif
+
+#ifdef __OBJC__
+#import "Comment.h"
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import "Masonry.h"
+#import "CommentMethod.h"
+
+#import "MobClick.h"
+#endif
+
+
